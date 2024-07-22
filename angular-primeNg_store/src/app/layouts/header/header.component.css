@@ -1,0 +1,14 @@
+.wrapper {
+    width: 100%;
+    border-bottom: 1px solid grey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo{
+    width: 300px;
+    margin-right: 10px;
+}

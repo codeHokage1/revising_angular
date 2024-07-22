@@ -1,0 +1,11 @@
+<div class="product-card">
+  <img [src]="product.image" alt="Product Thumbnail Image" />
+  <h3>{{ product.name }}</h3>
+
+  <div class="product-title">
+    <span>Price:</span>
+    <span>{{ product.price }}</span>
+  </div>
+
+  <p-rating [(ngModel)]="product.rating" [readonly]="true" [cancel]="false" />
+</div>
